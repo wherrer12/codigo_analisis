@@ -8,5 +8,7 @@
         string prueba = "Prueba";
 
         string carrera = "Informatica";
+
+        string curso = "Bases de Datos";
     }
 }
