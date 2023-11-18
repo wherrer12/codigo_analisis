@@ -3,5 +3,6 @@
     public class Class
     {
         string borrado = "todo";
+        string prueba = "Prueba";
     }
 }
