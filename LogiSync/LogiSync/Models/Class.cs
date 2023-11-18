@@ -2,6 +2,6 @@
 {
     public class Class
     {
-        string borrado = "si";
+        string borrado = "todo";
     }
 }
