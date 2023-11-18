@@ -12,5 +12,6 @@
         bool m = true;
         string NOMBRE ="jean";
         string prueba2 = "";
+        string sirve = "si";
     }
 }
