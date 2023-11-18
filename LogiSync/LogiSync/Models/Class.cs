@@ -9,6 +9,10 @@
         string hola = "prueba Vir";
             string hola1 = "prueba andres";
         string prueba = "Prueba";
-        bool m = true;
+        bool m2 = true;
     }
+
+    
+
+
 }
