@@ -3,6 +3,8 @@
     public class Class
     {
         string borrado = "todo";
+
+        int numb = 9;
         string prueba = "Prueba";
     }
 }
