@@ -16,5 +16,10 @@ namespace LogiSync.Models
         [DisplayName("Contraseña")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        [Required]
+        [DisplayName]
+        [DataType(DataType.EmailAddress)]
+        public string email { get; set; }
     }
 }
