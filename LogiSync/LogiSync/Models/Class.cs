@@ -10,6 +10,7 @@
             string hola1 = "prueba andres";
         string prueba = "Prueba";
         bool m = true;
+        string NOMBRE ="jean"
 
     }
 }
