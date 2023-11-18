@@ -7,5 +7,6 @@
         string caso = "Funciona";
         int test = 9;
         string = "prueba Vir";
+            string = "prueba andres";
     }
 }
