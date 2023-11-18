@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.botonBorder {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+}
+
+h5 {
+    font-weight: bold;
+    text-align:center;
+}
