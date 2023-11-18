@@ -9661,23 +9661,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Keyner\\.nuget\\packages\\": {},
+    "C:\\Users\\wherr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Keyner\\Desktop\\UCR\\Semestre VI\\Análisis y Diseño de Sistemas\\Proyecto (Fases)\\LogiSync\\LogiSync\\LogiSync.csproj",
+      "projectUniqueName": "D:\\WindowsCloud\\OneDrive\\UCR 2023\\II Ciclo\\CodeVS\\LogiSync\\LogiSync\\LogiSync.csproj",
       "projectName": "LogiSync",
-      "projectPath": "C:\\Users\\Keyner\\Desktop\\UCR\\Semestre VI\\Análisis y Diseño de Sistemas\\Proyecto (Fases)\\LogiSync\\LogiSync\\LogiSync.csproj",
-      "packagesPath": "C:\\Users\\Keyner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Keyner\\Desktop\\UCR\\Semestre VI\\Análisis y Diseño de Sistemas\\Proyecto (Fases)\\LogiSync\\LogiSync\\obj\\",
+      "projectPath": "D:\\WindowsCloud\\OneDrive\\UCR 2023\\II Ciclo\\CodeVS\\LogiSync\\LogiSync\\LogiSync.csproj",
+      "packagesPath": "C:\\Users\\wherr\\.nuget\\packages\\",
+      "outputPath": "D:\\WindowsCloud\\OneDrive\\UCR 2023\\II Ciclo\\CodeVS\\LogiSync\\LogiSync\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Keyner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wherr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9733,7 +9733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
