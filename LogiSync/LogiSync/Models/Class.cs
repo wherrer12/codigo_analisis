@@ -2,6 +2,6 @@
 {
     public class Class
     {
-
+        int num = 0;
     }
 }
