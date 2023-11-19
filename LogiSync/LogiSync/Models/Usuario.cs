@@ -20,6 +20,9 @@ namespace LogiSync.Models
         [Required]
         [DisplayName]
         [DataType(DataType.EmailAddress)]
-        public string email { get; set; }
+        public string Email { get; set; }
+
+        public int restablecer { get; set; }
+
     }
 }
