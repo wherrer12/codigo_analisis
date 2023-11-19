@@ -13,5 +13,18 @@ namespace LogiSync.Controllers
         {
             return View();
         }
+
+        //--------------------------------------------------
+
+
+        [HttpGet]
+        public IActionResult CrearUsuario()
+        {
+            return View();
+        }
+
+
+
+        //--------------------------------------------------
     }
 }
