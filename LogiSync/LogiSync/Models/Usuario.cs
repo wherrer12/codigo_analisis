@@ -21,5 +21,8 @@ namespace LogiSync.Models
         [DisplayName]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        public int restablecer { get; set; }
+
     }
 }
