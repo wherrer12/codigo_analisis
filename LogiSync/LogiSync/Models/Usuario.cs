@@ -18,8 +18,11 @@ namespace LogiSync.Models
         public string Password { get; set; }
 
         [Required]
-        [DisplayName]
+        [DisplayName("Email")]
         [DataType(DataType.EmailAddress)]
-        public string email { get; set; }
+        public string Email { get; set; }
+
+        public int restablecer { get; set; }
+
     }
 }
