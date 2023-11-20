@@ -1,5 +1,62 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model LogiSync.Models.Usuario
+
 @{
+    ViewData["Title"] = "CrearUsuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+            <form asp-action="Login" id="FormularioLogin">
+
+                <h1 style="text-align:center">Creación de usuario administrador</h1>
+
+                @*Solicitamos el email*@
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" placeholder="jose@dominio.com" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                @*Solicitamos el password*@
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" placeholder="12345" id="contrasena" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                    <br />
+
+                    <input style="margin-left:15px;" type="checkbox" id="mostrar_contrasena" title="clic para mostrar contraseña" />
+                    &nbsp;&nbsp;Mostrar contraseña
+                </div>
+
+
+                @* Boton que ejecuta el post del formulario*@
+                <div class="form-group mt-4 d-flex justify-content-center">
+                    <button style="display:inline-block; margin:0 10px" class="btn btn-outline-primary me-4 botonBorder" style="margin-right: 10px" type="submit">Crear cuenta</button>
+                    <a asp-action="Login" class="btn btn-outline-primary ms-3 botonBorder">Iniciar sesión</a>
+                </div>
+
+                @if (TempData["Mensaje"] != null)
+                {
+                    <div class="alert alert-danger mt-3" role="alert" style="font-size:13px; margin:auto">
+                        <strong>@TempData["Mensaje"]</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+                    </div>
+                }
+
+                @if (TempData["MensajeCreado"] != null)
+                {
+                    <div class="alert alert-info alert-dismissible fade show mt-2" style="font-size:13px; margin:auto" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+                        <strong>@TempData["MensajeCreado"]</strong>
+                    </div>
+                }
+
+            </form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</div>

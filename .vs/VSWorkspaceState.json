@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LogiSync"
   ],
-  "SelectedNode": "\\LogiSync.sln",
+  "SelectedNode": "\\LogiSync\\LogiSync.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -17,7 +17,7 @@
                 @*Solicitamos el email*@
                 <div class="form-group">
                     <label asp-for="Email" class="control-label"></label>
-                    <input asp-for="Email" class="form-control" placeholder="jose@gmail.com" />
+                    <input asp-for="Email" class="form-control" placeholder="jose@dominio.com" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 @*Solicitamos el password*@
@@ -35,7 +35,7 @@
                @* Boton que ejecuta el post del formulario*@
                 <div class="form-group mt-4 d-flex justify-content-center">
                     <button style="display:inline-block; margin:0 10px" class="btn btn-outline-primary me-4 botonBorder" style="margin-right: 10px" type="submit">Ingresar</button>
-                    <a asp-action="CrearCuenta" class="btn btn-outline-primary ms-3 botonBorder"> Crear cuenta</a>
+                    <a asp-action="CrearUsuario" class="btn btn-outline-primary ms-3 botonBorder">Crear cuenta</a>
                 </div>
 
                 @if (TempData["Mensaje"] != null)
