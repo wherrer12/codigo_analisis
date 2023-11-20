@@ -26,6 +26,32 @@ namespace LogiSync.Controllers
             return new string(Enumerable.Repeat(clave, 12).Select(s => s[randow.Next(s.Length)]).ToArray());
         }
 
+
+        private bool EnviarEmail(Usuario temp)
+        {
+            try
+            {
+                //variable control 
+                bool enviado = false;
+
+                //ser instancia el objeto 
+                Email email = new Email();
+
+                //se utiliza el metodo para enviar el email
+                email.EnviarCorreo(temp);
+
+                //se indica yupii se envio 
+                enviado = true;
+
+                //enviamos el valor 
+                return enviado;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }//cierre enviar email
+
         //--------------------------------------------------
 
 
