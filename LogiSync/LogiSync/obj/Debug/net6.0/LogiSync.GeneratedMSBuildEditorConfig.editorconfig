@@ -15,6 +15,9 @@ build_property.RootNamespace = LogiSync
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47a67dd120a571ea3bb1f5922e19b52ea02c8ba9
 build_property.ProjectDir = D:\CodeWork\wherrer12\codigo_analisis\LogiSync\LogiSync\
 =======
 build_property.ProjectDir = D:\Sky\OneDrive - Instituto Nacional de Aprendizaje\Code\RepoVsStudio\wherrer12\codigo_analisis\LogiSync\LogiSync\
@@ -144,6 +147,7 @@ build_metadata.AdditionalFiles.CssScope =
 =======
 [D:/CodeWork/wherrer12/codigo_analisis/LogiSync/LogiSync/Views/Shared/_Layout.cshtml]
 >>>>>>> Clase ficticia
+<<<<<<< HEAD
 =======
 [D:/Sky/OneDrive - Instituto Nacional de Aprendizaje/Code/RepoVsStudio/wherrer12/codigo_analisis/LogiSync/LogiSync/Views/Shared/_Layout.cshtml]
 >>>>>>> Primer commit RAMA W
@@ -215,5 +219,7 @@ build_metadata.AdditionalFiles.CssScope =
 =======
 [D:/CodeWork/wherrer12/codigo_analisis/LogiSync/LogiSync/Views/Shared/_Layout.cshtml]
 >>>>>>> Clase ficticia
+=======
+>>>>>>> 47a67dd120a571ea3bb1f5922e19b52ea02c8ba9
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-grttgm28i9
