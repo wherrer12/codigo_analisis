@@ -1,5 +1,6 @@
 ﻿using LogiSync.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Mvc;
 
 namespace LogiSync.Controllers
 {
@@ -108,37 +109,37 @@ namespace LogiSync.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult BuscarPersonal([Bind()] Personal personal)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        if (personal != null)
-        //        {
-        //            var temp = _context.personal.FirtsOrDefault(x => x.cedula.Equals(personal.Cedula));
+        [HttpPost]
+        public Iactionresult buscarpersonal([bind()] personal personal)
+        {
+            if (!modelstate.isvalid)
+            {
+                if (personal != null)
+                {
+                    var temp = _context.personal.firtsordefault(x => x.cedula.equals(personal.cedula));
 
-        //            if (temp != null)
-        //            {
-        //                return View (temp);
-        //            }
-        //            else
-        //            {
-        //                TempData["PersonalError"] = "No existe un personal con esa cédula. Intente nuevamente.";
-        //                return View();
-        //            }
-        //        }
-        //        else
-        //        {
-        //            TempData["PersonalError"] = "Error al buscar el personal. Comuniquese con el administrador.";
-        //            return View();
-        //        }
-        //    }
-        //    else
-        //    {
-        //        TempData["PersonalError"] = "Debe de llenar todos los campos.";
-        //        return View();
-        //    }
-        //}
+                    if (temp != null)
+                    {
+                        return view (temp);
+                    }
+                   else
+                    {
+                        tempdata["personalerror"] = "no existe un personal con esa cédula. intente nuevamente.";
+                        return view();
+                    }
+                }
+                else
+                {
+                    tempdata["personalerror"] = "error al buscar el personal. comuniquese con el administrador.";
+                    return view();
+                }
+            }
+            else
+            {
+                tempdata["personalerror"] = "debe de llenar todos los campos.";
+                return view();
+           }
+        }
 
         [HttpGet]
         public IActionResult ModificarPersonal()

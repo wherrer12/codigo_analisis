@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LogiSync",
+    "\\LogiSync\\LogiSync",
+    "\\LogiSync\\LogiSync\\Controllers"
   ],
+  "SelectedNode": "\\LogiSync\\LogiSync\\Controllers",
   "PreviewInSolutionExplorer": false
 }
