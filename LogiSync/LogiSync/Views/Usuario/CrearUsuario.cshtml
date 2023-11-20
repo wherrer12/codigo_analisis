@@ -12,7 +12,7 @@
         <div class="col-sm-4">
             <form asp-action="Login" id="FormularioLogin">
 
-                <h1 style="text-align:center">Creación de usuario administrador</h1>
+                <h3 style="text-align:center">Creación de usuario administrador</h3>
 
                 @*Solicitamos el email*@
                 <div class="form-group">
@@ -23,7 +23,7 @@
                 @*Solicitamos el password*@
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
-                    <input asp-for="Password" class="form-control" placeholder="12345" id="contrasena" />
+                    <input asp-for="Password" class="form-control" placeholder="" id="contrasena" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                     <br />
 
