@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int l = 0;
 =======
 >>>>>>> Clase ficticia
@@ -15,5 +16,8 @@
 >>>>>>> INT L
 =======
 >>>>>>> Clase ficticia
+=======
+        int l = 0;
+>>>>>>> INT L
     }
 }
